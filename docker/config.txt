@@ -1,0 +1,5 @@
+PROJECT_NAME=
+JUPYTER_PORT=
+BACKEND=pytorch # pytorch/dl-gpu/dl-cpu
+ROOT_DIR=
+TENSORBOARD_PORT=
