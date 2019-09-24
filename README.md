@@ -2,3 +2,4 @@ Have been going along with several ML projects recently, I found out this skelet
 
 I just need to make tiny modification and then, could easily run training/inference/debugging on my physical laptop, server with/without GPU support, or google colab.
  
+ Firstly, edit file docker/config.txt!!!
