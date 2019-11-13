@@ -2,3 +2,4 @@ PROJECT_NAME=
 JUPYTER_PORT=
 BACKEND=pytorch # pytorch/dl-gpu/dl-cpu
 TENSORBOARD_PORT=
+DATASET_DIR=
