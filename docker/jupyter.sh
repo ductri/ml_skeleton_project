@@ -4,7 +4,10 @@
 
 source docker/config.txt
 
-docker logs -f --timestamps $(docker run --runtime=nvidia -d -e PYTHONIOENCODING=utf-8 --name="$PROJECT_NAME"_jupyter --rm \
+docker logs -f --timestamps $(docker run --runtime=nvidia -d \
+--name="$PROJECT_NAME"_jupyter --rm \
+-e PYTHONIOENCODING=utf-8 \
+-e PYTHONPATH=/source/main \
 -v `pwd`/source/:/source \
 -v $DATASET_DIR:/dataset:ro \
 -p $JUPYTER_PORT:$JUPYTER_PORT \
